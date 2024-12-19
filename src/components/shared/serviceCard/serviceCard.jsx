@@ -19,8 +19,8 @@ function ServiceCard({ img, name, text, link }) {
 
           {/* Overlay content */}
           <div className="relative p-5  translate-y-1  changeBg text-white w-full">
-            <p className="text-lg font-bold">{name}</p>
-            {/* <p className="text-sm">LEARN MORE</p> */}
+            <p className="text-lg mb-2 font-bold">{name}</p>
+            <p className="text-base">LEARN MORE</p>
           </div>
         </div>
         <p className="mt-3">{text}</p>

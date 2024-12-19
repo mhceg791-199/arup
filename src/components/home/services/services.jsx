@@ -4,7 +4,7 @@ import ServiceCard from "../../shared/serviceCard/serviceCard";
 import { sericesContext } from "../../../context/servicesContext";
 
 function Services() {
-  // const { servicesDetails } = useContext(sericesContext);  
+  // const { servicesDetails } = useContext(sericesContext);
   const servicesDetails = [
     {
       name: "MASTER & URBAN PLANNING",
@@ -57,7 +57,7 @@ function Services() {
       <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
         {servicesDetails.map((item, index) => (
           <React.Fragment key={index}>
-            <ServiceCard text={item.name} img={item.img} link="/" />
+            <ServiceCard name={item.name} img={item.img} link="/" />
           </React.Fragment>
         ))}
       </div>
