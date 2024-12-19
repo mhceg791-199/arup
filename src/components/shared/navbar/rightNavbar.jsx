@@ -1,5 +1,6 @@
 import { IconButton, Typography } from "@material-tailwind/react";
 import React from "react";
+import { Link } from "react-router-dom";
 
 function RightNavbar({ listOfNavbar, closeDrawerRight }) {
   return (
@@ -29,7 +30,14 @@ function RightNavbar({ listOfNavbar, closeDrawerRight }) {
             color="gray"
             className="mb-8 pr-4 text-start text-mainColor text-base font-bold"
           >
-            {item.name}
+            <Link
+              onClick={() => {
+                closeDrawerRight();
+              }}
+              to={item.link}
+            >
+              {item.name}
+            </Link>
           </Typography>
         </React.Fragment>
       ))}

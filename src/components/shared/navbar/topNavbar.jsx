@@ -26,7 +26,9 @@ export function TopNavbar({ listOfNavbar, closeDrawerTop }) {
     <Navbar className="mx-auto max-w-full !rounded-none  !mt-0 !bg-white shadow-none px-6 py-3">
       <div className="flex items-start flex-col justify-between text-blue-gray-900">
         <div className="flex justify-between w-full">
-          <img className="w-[20%] mb-5" src="/images/logo1.png" alt="" />
+          <Link to="/" className="w-[20%] mb-5">
+            <img className="w-full" src="/images/logo1.png" alt="" />
+          </Link>
           <IconButton variant="text" color="blue-gray" onClick={closeDrawerTop}>
             <svg
               xmlns="http://www.w3.org/2000/svg"

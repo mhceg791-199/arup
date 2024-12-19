@@ -7,7 +7,6 @@ import ServiceCard from "../../components/shared/serviceCard/serviceCard";
 
 function Services() {
   const { servicesDetails } = useContext(sericesContext);
-  console.log(servicesDetails);
 
   return (
     <>

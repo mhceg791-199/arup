@@ -5,7 +5,6 @@ function ServiceCard({ img, name, text, link }) {
     <>
       <div className="col-span-1">
         <div className="relative flex  flex-col animation  justify-end h-[50vh]">
-          {console.log(text)}
           {/* Image container */}
           <div
             style={{

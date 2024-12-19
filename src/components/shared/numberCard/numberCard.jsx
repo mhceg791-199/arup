@@ -8,7 +8,6 @@ function NumberCard({ text, number, icon, isHover = true, time }) {
 
   return (
     <>
-      {console.log(icon)}
       <div
         ref={ref}
         className={`flex flex-col col-span-1 justify-center md:p-16 p-10 border-2 border-blue-gray-300 duration-300 ${

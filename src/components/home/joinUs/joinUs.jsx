@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function JoinUs() {
   return (
@@ -15,9 +16,12 @@ function JoinUs() {
             empowering individuals to make a meaningful impact.
           </p>
           <div>
-            <button className=" px-3 py-2 text-base font-bold my-5 inline-flex w-auto bg-white text-mainColor ">
+            <Link
+              to="/careers"
+              className=" px-3 py-2 text-base font-bold my-5 inline-flex w-auto bg-white text-mainColor "
+            >
               APPLY NOW
-            </button>
+            </Link>
           </div>
         </div>
       </div>
