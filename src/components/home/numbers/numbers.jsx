@@ -31,7 +31,7 @@ function Numbers() {
     <>
       <div className="grid md:grid-cols-2 grid-cols-1 py-16 gap-4">
         <div className="col-span-1 flex items-center">
-          <p className="font-bold text-xxl">
+          <p className="font-bold text-xl">
             CREATING ARCHITECTURE IS A PROCESS OF STRIVING FOR EXCELLENCE, BY
             THE PEOPLE, FOR THE PEOPLE
           </p>

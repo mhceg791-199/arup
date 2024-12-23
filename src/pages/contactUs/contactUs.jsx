@@ -7,7 +7,7 @@ function ContactUs() {
   return (
     <>
       <img
-        className="h-screen object-cover w-full"
+        className="h-[80vh] object-cover w-full"
         src="/contactUs/contactUs.webp"
         alt=""
       />

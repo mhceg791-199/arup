@@ -53,8 +53,9 @@ function Services() {
   ];
   return (
     <>
+    
       <SectionHeader text="SERVICES" />
-      <div className="grid lg:grid-cols-4 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
+      <div className="grid lg:grid-cols-4 mt-3 md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-4">
         {servicesDetails.map((item, index) => (
           <React.Fragment key={index}>
             <ServiceCard name={item.name} img={item.img} link="/" />

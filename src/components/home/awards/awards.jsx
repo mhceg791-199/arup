@@ -125,7 +125,7 @@ function Awards() {
               <div className="p-2 ">
                 <img
                   src={item.img}
-                  className=" h-[40vh] object-cover  w-full"
+                  className=" h-[35vh] object-cover  w-full"
                   alt=""
                 />
                 <div className="mt-4 ps-1">

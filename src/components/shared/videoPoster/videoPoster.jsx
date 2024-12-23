@@ -4,7 +4,7 @@ function VideoPoster({ video }) {
   return (
     <>
       <video
-        className="w-full h-[100vh] object-cover"
+        className="w-full h-[80vh] object-cover"
         autoPlay
         muted
         loop
