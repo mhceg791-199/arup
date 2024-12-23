@@ -1,26 +1,27 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function Footer() {
   const footerDetails = [
     {
       name: " About Us",
-      link: "/",
+      link: "/about",
     },
     {
       name: " Our Founder",
-      link: "/",
+      link: "/founders",
     },
     {
       name: " Services portfolio",
-      link: "/",
+      link: "/services",
     },
     {
       name: " Global recognition & sustainability Careers",
-      link: "/",
+      link: "/globalRecognations",
     },
     {
       name: " Contact Us",
-      link: "/",
+      link: "/contactUs",
     },
   ];
   return (
@@ -38,12 +39,12 @@ function Footer() {
           <div className="flex md:flex-row flex-col ">
             {footerDetails.map((item, index) => (
               <React.Fragment key={index}>
-                <p className=" pe-2 font-bold">
+                <Link to={item.link} className=" pe-2 font-bold">
                   {`    ${item.name}  `}
                   {item.name != " Contact Us" && (
                     <span className="text-gold"> | </span>
                   )}
-                </p>
+                </Link>
               </React.Fragment>
             ))}
           </div>
