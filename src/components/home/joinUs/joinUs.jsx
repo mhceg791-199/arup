@@ -1,9 +1,17 @@
-import React from "react";
+import React, { useContext } from "react";
 import { Link } from "react-router-dom";
+import { careerModalContext } from "../../../context/careerContext";
+import CareerModal from "./careerModel/careerModel";
 
-function JoinUs() {
+function JoinUs({ openMoal = false }) {
+  const { setOpen } = useContext(careerModalContext);
+  const openModal = () => {
+    setOpen(true);
+  };
   return (
     <>
+      <CareerModal />
+
       <div className="grid gap-10 md:grid-cols-2 grid-cols-1">
         <div className="col-span-1 p-8">
           <img src="/home/career.webp" alt="" />
@@ -16,12 +24,28 @@ function JoinUs() {
             empowering individuals to make a meaningful impact.
           </p>
           <div>
-            <Link
-              to="/careers"
-              className=" px-3 py-2 text-base font-bold my-5 inline-flex w-auto bg-white text-mainColor "
-            >
-              APPLY NOW
-            </Link>
+            {openMoal ? (
+              <>
+                <p
+                  onClick={() => {
+                    openModal();
+                  }}
+                  // to="/careers"
+                  className=" px-3 py-2 text-base font-bold my-5 inline-flex w-auto bg-white text-mainColor "
+                >
+                  APPLY NOW
+                </p>
+              </>
+            ) : (
+              <>
+                <Link
+                  to="/careers"
+                  className=" px-3 py-2 text-base font-bold my-5 inline-flex w-auto bg-white text-mainColor "
+                >
+                  APPLY NOW
+                </Link>
+              </>
+            )}
           </div>
         </div>
       </div>

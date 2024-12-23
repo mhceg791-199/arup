@@ -7,15 +7,21 @@ import "@fortawesome/fontawesome-free/css/all.css";
 import ServicesContextProvider from "./context/servicesContext.jsx";
 import SustainabilityContextProvider from "./context/sustainabilityContext.jsx";
 import ProjectsContextProvider from "./context/projectsContext.jsx";
+import CareerModelProvider from "./context/careerContext.jsx";
+import ScrollToTop from "./hooks/scrollToTop.jsx";
 
 createRoot(document.getElementById("root")).render(
   <BrowserRouter>
-    <ProjectsContextProvider>
-      <SustainabilityContextProvider>
-        <ServicesContextProvider>
-          <App />
-        </ServicesContextProvider>
-      </SustainabilityContextProvider>
-    </ProjectsContextProvider>
+    <ScrollToTop />
+
+    <CareerModelProvider>
+      <ProjectsContextProvider>
+        <SustainabilityContextProvider>
+          <ServicesContextProvider>
+            <App />
+          </ServicesContextProvider>
+        </SustainabilityContextProvider>
+      </ProjectsContextProvider>
+    </CareerModelProvider>
   </BrowserRouter>
 );

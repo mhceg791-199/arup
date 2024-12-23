@@ -17,6 +17,7 @@ import ContactUs from "./pages/contactUs/contactUs";
 import Arup from "./pages/arup/arup";
 import Christopher from "./pages/christopher/christopher";
 import Career from "./pages/career/career";
+import GlobalRecognation from "./pages/globalRecognations/globalRecognations";
 
 function App() {
   return (
@@ -30,6 +31,7 @@ function App() {
           <Route path="/arup" element={<Arup />} />
           <Route path="/christopher" element={<Christopher />} />
           <Route path="/services" element={<Services />} />
+          <Route path="/globalRecognations" element={<GlobalRecognation />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/projects/:slug" element={<ProjectsDetails />} />
           <Route path="/client" element={<Client />} />

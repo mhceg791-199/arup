@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 function OurFounders() {
   return (
@@ -9,25 +10,31 @@ function OurFounders() {
         </p>
         <div className="grid grid-cols-3 gap-10">
           <div className="col-span-1 ">
-            <img
-              className="w-3/4 m-auto "
-              src="/founders/founder1.webp"
-              alt=""
-            />
+            <Link to="/arup">
+              <img
+                className="w-3/4 m-auto "
+                src="/founders/founder1.webp"
+                alt=""
+              />
+            </Link>
           </div>
           <div className="col-span-1 ">
-            <img
-              className="w-3/4 m-auto "
-              src="/founders/founder2.webp"
-              alt=""
-            />
+            <Link to="/brian">
+              <img
+                className="w-3/4 m-auto "
+                src="/founders/founder2.webp"
+                alt=""
+              />
+            </Link>
           </div>
           <div className="col-span-1 ">
-            <img
-              className="w-3/4 m-auto "
-              src="/founders/founder3.webp"
-              alt=""
-            />
+            <Link to="/christopher">
+              <img
+                className="w-3/4 m-auto "
+                src="/founders/founder3.webp"
+                alt=""
+              />
+            </Link>
           </div>
         </div>
       </div>

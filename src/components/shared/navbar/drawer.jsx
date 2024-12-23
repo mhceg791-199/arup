@@ -30,7 +30,7 @@ export function DrawerPlacement() {
     },
     {
       name: "Global recognition",
-      link: "/",
+      link: "/globalRecognations",
     },
     {
       name: "Sustainability",
@@ -41,7 +41,7 @@ export function DrawerPlacement() {
       link: "/client",
     },
     {
-    name: "Careers",
+      name: "Careers",
       link: "/careers",
     },
     {
