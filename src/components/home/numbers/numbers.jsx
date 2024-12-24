@@ -29,14 +29,14 @@ function Numbers() {
   ];
   return (
     <>
-      <div className="grid md:grid-cols-2 grid-cols-1 py-16 gap-4">
+      <div className="grid md:grid-cols-2  grid-cols-1 py-16 gap-6">
         <div className="col-span-1 flex items-center">
-          <p className="font-bold text-xl">
+          <p className="font-bold text-xl md:px-10">
             CREATING ARCHITECTURE IS A PROCESS OF STRIVING FOR EXCELLENCE, BY
             THE PEOPLE, FOR THE PEOPLE
           </p>
         </div>
-        <div className="col-span-1">
+        <div className="col-span-1 ">
           <div className="grid grid-cols-2 gap-3">
             {numbersDetails.map((item, index) => (
               <React.Fragment key={index}>

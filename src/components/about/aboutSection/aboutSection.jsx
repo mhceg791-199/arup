@@ -6,7 +6,7 @@ function AboutSection() {
     <>
       <div className="bg-white py-10 text-mainColor md:px-20">
         <SectionHeader text="ABOUT US" />
-        <p className="mt-5">
+        <p className="mt-5 text-justify">
           Arup Datta Architect Ltd. (ADAL), a proud subsidiary of Mosaic Holding
           Corporation, is a globally recognized multidisciplinary firm with over
           40 years of expertise in delivering exceptional design solutions.
@@ -31,7 +31,7 @@ function AboutSection() {
         }}
         className=" py-10  md:px-20 w-full h-full bg-[url('/about/about.webp')] bg-cover bg-no-repeat"
       >
-        <p className="mt-5">
+        <p className="mt-5 text-justify">
           At the heart of ADAL’s portfolio lies the visionary design philosophy
           of its founder, Arup Datta, whose conceptual expertise ensures each
           project achieves both budgetary alignment and aesthetic distinction.
@@ -42,7 +42,7 @@ function AboutSection() {
           distinct needs of clients and end users, resulting in dynamic spaces
           that stand the test of time.{" "}
         </p>
-        <p className="mt-5">
+        <p className="mt-5 text-justify">
           ADAL’s architectural and urban design contributions span over more
           than 10 countries, including Canada, the USA, Europe, Africa, the
           Middle East, and Southeast Asia. Its projects are celebrated for their
@@ -51,7 +51,7 @@ function AboutSection() {
           with active involvement in organisations such as the Chamber of
           Commerce, the Canadian Cancer Society.{" "}
         </p>
-        <p className="mt-5">
+        <p className="mt-5 text-justify">
           Registered in Alberta, British Columbia, Ontario, and Saskatchewan,
           ADAL also undertakes projects in the USA, India, Malaysia, Qatar,
           Saudi Arabia, and Oman, continuing its legacy of transforming global

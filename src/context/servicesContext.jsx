@@ -6,57 +6,57 @@ function ServicesContextProvider({ children }) {
     {
       name: "MASTER & URBAN PLANNING",
       img: "/services/1.webp",
-      text: "Strategically shaping dynamic urban landscapes, our master and urban planning services focus on creating sustainable, functional, and aesthetically appealing environments that inspire community growth and connectivity.",
+      text: "We design sustainable, functional urban spaces that inspire community growth.",
     },
     {
       name: "INTERIOR DESIGN",
       img: "/services/2.webp",
-      text: "We transform interiors into sophisticated, functional spaces that seamlessly blend style and purpose, tailored to the unique vision and needs of our clients.",
+      text: "We create sophisticated, functional interiors that harmonize style and purpose, customized to our clients’ unique vision and needs.",
     },
     {
       name: "RESIDENTIAL",
       img: "/services/3.webp",
-      text: "From luxurious single-family homes to multifamily residential complexes, we deliver thoughtfully designed spaces that prioritize comfort, innovation, and livability.",
+      text: "We design luxurious single-family homes and multifamily complexes, emphasizing comfort, innovation, and livability.",
     },
     {
       name: "COMMERCIAL",
       img: "/services/4.webp",
-      text: "Our commercial projects are crafted to elevate business environments, combining functionality and design excellence to create spaces that foster productivity and success.",
+      text: "We create commercial spaces that blend functionality and design excellence to enhance productivity and drive success.",
     },
     {
       name: "ADMINISTRATIVE",
       img: "/services/5.webp",
-      text: "With a focus on efficiency and sophistication, our administrative designs deliver tailored solutions for offices and operational hubs, optimizing both aesthetics and performance. ",
+      text: "We design efficient, sophisticated administrative spaces that balance aesthetics and performance for tailored office solutions.",
     },
     {
       name: "HEALTH CARE",
       img: "/services/6.webp",
-      text: "We design health care facilities that merge innovation with compassion, creating environments that prioritize patient care, functionality, and operational excellence.",
+      text: "We create innovative, compassionate healthcare facilities that prioritize patient care, functionality, and operational excellence.",
     },
     {
       name: "CULTURAL BUILDINGS",
       img: "/services/7.webp",
-      text: "Our cultural building designs celebrate heritage and creativity, offering spaces that inspire, engage, and leave a lasting impact on communities.",
+      text: "We design cultural buildings that celebrate heritage and creativity, inspiring and engaging communities with lasting impact.",
     },
     {
       name: "THEME PARK",
       img: "/services/8.webp",
-      text: "We bring imagination to life with innovative and immersive theme park designs, crafting experiences that captivate visitors of all ages.",
+      text: "We create innovative, immersive theme parks that captivate and inspire visitors of all ages.",
     },
     {
       name: "SET DESIGNS",
       img: "/services/9.webp",
-      text: "Our set design services provide dynamic and visually striking environments for productions, blending artistry and technical expertise to bring stories to life.",
+      text: "We design dynamic, visually striking sets that blend artistry and technical expertise to bring stories to life.",
     },
     {
       name: "WATER FEATURES",
       img: "/services/10.webp",
-      text: "We design captivating water features that harmonize with their surroundings, adding elegance, tranquility, and sensory appeal to any space.",
+      text: "We create captivating water features that enhance any space with elegance, tranquility, and sensory appeal.",
     },
     {
       name: "BUILDING BOOKLET & PERMITS",
       img: "/services/11.webp",
-      text: "Our team provides comprehensive building booklets and facilitates the permitting process, ensuring seamless navigation of regulatory requirements while maintaining project integrity and excellence. ",
+      text: "We provide building booklets and manage permits, ensuring compliance and project excellence.",
     },
   ];
   return (

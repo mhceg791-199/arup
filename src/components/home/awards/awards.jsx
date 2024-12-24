@@ -117,7 +117,7 @@ function Awards() {
     <>
       <div className="mt-10">
         <div className="ps-3">
-          <SectionHeader text="AWARDS" />
+          <SectionHeader link={"/globalRecognations"} text="AWARDS" />
         </div>
         <Slider {...settings}>
           {awardsDetails.map((item, index) => (

@@ -14,8 +14,8 @@ function NumberCard({ text, number, icon, isHover = true, time }) {
           isHover && "hover:border-white"
         } rounded-sm items-center`}
       >
-        <p className="text-base text-center ">{text}</p>
-        <p className="text-xxl font-bold text-center">
+        <p className="text-lg text-center ">{text}</p>
+        <p className="text-[50px] font-bold text-center">
           {myNumber}  {icon && <span>{icon} </span>}
         </p>
       </div>

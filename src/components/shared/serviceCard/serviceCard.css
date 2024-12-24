@@ -10,6 +10,7 @@
 .changeBg {
   background-color: #415e6f9f;
   transition: 1s;
+  height: 45%;
 }
 
 .animation:hover .changeBg {

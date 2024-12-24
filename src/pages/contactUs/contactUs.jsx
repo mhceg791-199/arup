@@ -19,9 +19,6 @@ function ContactUs() {
       <Form />
 
       <div className="grid md:grid-cols-2 grid-cols-1 md:h-screen mt-10 md:mt- text-black items-center md:px-10">
-        {/* <div className="col-span-1">
-          <ContactUsDetails />
-        </div> */}
         <div className="col-span-2">
           <Map />
         </div>

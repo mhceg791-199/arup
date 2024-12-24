@@ -13,8 +13,8 @@ function SustainabilityDetails() {
       <div className="grid md:grid-cols-2 grid-cols-1 bg-white gap-6 md:px-10 pt-5 px-8 mt-20">
         <div className=" text-mainColor  flex flex-col justify-center">
           <h1 className="text-xxl text-mainColor ">{title}</h1>
-          <p className="font-semibold my-5">{brief}</p>
-          <p>{text}</p>
+          <p className="font-semibold my-5 text-justify">{brief}</p>
+          <p className="text-justify">{text}</p>
         </div>
         <div className="flex ">
           <img

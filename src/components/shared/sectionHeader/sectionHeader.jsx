@@ -1,11 +1,18 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-function SectionHeader({ text }) {
+function SectionHeader({ text, link }) {
   return (
     <>
-      <div className="flex items-center">
-        <h2 className="font-bold text-xxl pe-3">{text}</h2>
-        <img className="md:w-12 w-10 object-contain" src="/images/arrow.png" alt="" />
+      <div className="flex mb-3 items-center">
+        <Link to={link} className="font-bold text-xl pe-3">
+          {text}
+        </Link>
+        <img
+          className="md:w-8 w-10 object-contain"
+          src="/images/arrow.png"
+          alt=""
+        />
       </div>
     </>
   );
