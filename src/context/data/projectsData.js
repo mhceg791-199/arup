@@ -1,4 +1,4 @@
-const slugify = (name) => name.toLowerCase().replace(/\s+/g, "-");
+export const slugify = (name) => name.toLowerCase().replace(/\s+/g, "-");
 
 const projectsData = [
   {
@@ -88,7 +88,7 @@ const projectsData = [
   },
   {
     name: "West Edmonton Mall",
-    slug: slugify("The Edmonton real estate"),
+    slug: slugify("West Edmonton Mall"),
     imgs: [
       "/projects/West/1.webp",
       "/projects/West/2.webp",

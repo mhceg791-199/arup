@@ -3,6 +3,8 @@ import SectionHeader from "../../shared/sectionHeader/sectionHeader";
 import Slider from "react-slick";
 import RightArrow from "./arrows/rightArrow";
 import LeftArrow from "./arrows/leftArrow";
+import { slugify } from "../../../context/data/projectsData";
+import { Link } from "react-router-dom";
 
 function Awards() {
   const awardsDetails = [
@@ -10,23 +12,27 @@ function Awards() {
       img: "/awards/1.webp",
       title: "CALLAGHAN RAVINES, Edmonton, AB",
       year: "2014 - 2015",
+      link: `/projects/${slugify("CALLAGHAN RAVINES, Edmonton, AB")}`,
       description: "The Americas Property Awards ,Canada",
     },
     {
       img: "/awards/2.webp",
-      title: "Lexus, Edmonton, AB",
+      title: "Lexus of Edmonton",
+      link: `/projects/${slugify("Lexus of Edmonton")}`,
       year: "2014 - 2015",
       description: "The American Property Awards ,Canada ",
     },
     {
       img: "/awards/3.webp",
       title: "MACKINNON ESTATES, Edmonton, AB",
+      link: `/projects/${slugify("CALLAGHAN RAVINES, Edmonton, AB")}`,
       year: "2012",
       description: "The SAM Awards 2011 Finalist Town House Category",
     },
     {
       img: "/awards/4.webp",
       title: "Mall of America ,Bloomington Minnesota",
+      link: `/projects/${slugify("The Mall of America")}`,
       year: "2014 - 2015",
       description:
         "Rated #1 in the list of 10 best malls in world largest malls in USA",
@@ -34,6 +40,9 @@ function Awards() {
     {
       img: "/awards/5.webp",
       title: "MULTI-GENERATIONAL HOUSING (M.G.H.), Calgary, AB",
+      link: `/projects/${slugify(
+        "Multi-Generational Housing (M.G.H.), Calgary, AB"
+      )}`,
       year: "2017 - 2018",
       description: "The Architect Multiple Residence Canada Award ",
     },
@@ -42,12 +51,14 @@ function Awards() {
       title:
         "NIGERIAN INDUSTRIAL BANK HEADQUARTERS, CONVENTION CENTRE & SHOPPING COMPLEX, Abuja, Nigeria",
       year: "2014 - 2015",
+      link: `/projects/${slugify("Nigerian Industrial Bank Headquarters")}`,
       description: "One of the largest projects in Nigeria.",
     },
     {
       img: "/awards/7.webp",
       title: "OSHEANA CONDOMINIUMS, Edmonton, AB",
       year: "2006",
+      link: `/projects/${slugify("Osheana Condominiums")}`,
       description:
         "SAM Awards 2006 under 2 categories for Suite Design Types Finalist – SAM Awards 2006 as one of the 2 best Apartments.",
     },
@@ -55,6 +66,7 @@ function Awards() {
       img: "/awards/8.webp",
       title: "Olympic Center, Calgary, AB",
       year: "2014 - 2015",
+      link: `/projects/${slugify("Olympic Center")}`,
       description:
         "Winning design of a limited competition of five local firms. ",
     },
@@ -62,6 +74,7 @@ function Awards() {
       img: "/awards/9.webp",
       title: "One Denver Place, Denver, Colorado, USA",
       year: "2014 - 2015",
+      link: `/projects/${slugify("One Denver Place")}`,
       description:
         "Won a limited competition among five architectural firms in Calgary",
     },
@@ -69,6 +82,7 @@ function Awards() {
       img: "/awards/10.webp",
       title: "WALDEN COMMUNITY – SENIOR’S RESIDENCE",
       year: "2015 - 2016",
+      link: `/projects/${slugify("The Walden Community – Senior's Residence")}`,
       description:
         "The International Property Awards, in the Architecture Residence Canada ",
     },
@@ -76,6 +90,7 @@ function Awards() {
       img: "/awards/11.webp",
       title: "West Edmonton Mall , Edmonton, AB",
       year: "2013 - 2014",
+      link: `/projects/${slugify("West Edmonton Mall")}`,
       description: "Rated #2 in the list of 10 – Best Malls in the World",
     },
   ];
@@ -123,11 +138,13 @@ function Awards() {
           {awardsDetails.map((item, index) => (
             <React.Fragment key={index}>
               <div className="p-2 ">
-                <img
-                  src={item.img}
-                  className=" h-[35vh] object-cover  w-full"
-                  alt=""
-                />
+                <Link to={item.link}>
+                  <img
+                    src={item.img}
+                    className=" h-[35vh] object-cover  w-full"
+                    alt=""
+                  />
+                </Link>
                 <div className="mt-4 ps-1">
                   <p className="text-lg  font-bold my-1">{item.title}</p>
                   <p className="text-lg font-bold my-1">{item.year}</p>
