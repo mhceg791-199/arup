@@ -51,7 +51,7 @@ const projectsData = [
   {
     name: "Callaghan Ravines, Edmonton, AB",
     slug: slugify("Callaghan Ravines, Edmonton, AB"),
-    imgs: ["/projects/p22.webp", "/projects/p33.webp", "/projects/p12.webp"],
+    imgs: ["/projects/Mackinnion/1.webp", "/projects/Mackinnion/2.webp", "/projects/Mackinnion/3.webp"],
     industry: "Residential",
     subIndustry: "Housing Construction",
     client: "Rohit Group of Companies",
