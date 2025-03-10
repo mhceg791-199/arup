@@ -32,8 +32,8 @@ function Numbers() {
       <div className="grid md:grid-cols-2  grid-cols-1 py-16 gap-6">
         <div className="col-span-1 flex items-center">
           <p className="font-bold text-xl md:px-10">
-            CREATING ARCHITECTURE IS A PROCESS OF STRIVING FOR EXCELLENCE, BY
-            THE PEOPLE, FOR THE PEOPLE
+            CREATING ARCHITECTURE IS A PROCESS OF STRIVING FOR EXCELLENCE, FOR
+            THE PEOPLE, BY THE PEOPLE
           </p>
         </div>
         <div className="col-span-1 ">

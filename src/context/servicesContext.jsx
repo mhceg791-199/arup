@@ -43,21 +43,6 @@ function ServicesContextProvider({ children }) {
       img: "/services/8.webp",
       text: "We create innovative, immersive theme parks that captivate and inspire visitors of all ages.",
     },
-    {
-      name: "SET DESIGNS",
-      img: "/services/9.webp",
-      text: "We design dynamic, visually striking sets that blend artistry and technical expertise to bring stories to life.",
-    },
-    {
-      name: "WATER FEATURES",
-      img: "/services/10.webp",
-      text: "We create captivating water features that enhance any space with elegance, tranquility, and sensory appeal.",
-    },
-    {
-      name: "BUILDING BOOKLET & PERMITS",
-      img: "/services/11.webp",
-      text: "We provide building booklets and manage permits, ensuring compliance and project excellence.",
-    },
   ];
   return (
     <sericesContext.Provider value={{ servicesDetails }}>

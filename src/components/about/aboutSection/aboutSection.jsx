@@ -7,22 +7,29 @@ function AboutSection() {
       <div className="bg-white py-10 text-mainColor md:px-20">
         <SectionHeader text="ABOUT US" />
         <p className="mt-5 text-justify">
-          Arup Datta Architect Ltd. (ADAL), a proud subsidiary of Mosaic Holding
-          Corporation, is a globally recognized multidisciplinary firm with over
-          40 years of expertise in delivering exceptional design solutions.
-          Comprising a skilled team of architects, architectural technologists,
-          project managers, interior designers, and dedicated support
-          professionals, ADAL has established a stellar reputation for
-          excellence across residential, commercial, and institutional sectors.
-          The firm specializes in master and urban planning, interior design,
-          and a wide range of architectural projects, including single-family
-          and multifamily residential developments, commercial and
-          administrative spaces, healthcare and cultural buildings, and creative
-          endeavors such as theme parks, set designs, and water features.
-          Additionally, ADAL provides comprehensive regulatory and technical
-          services, including building booklets and permit facilitation.
-          Committed to innovation, quality, and functionality, ADAL continues to
-          shape visionary and enduring spaces worldwide.
+          Arup Datta Architect Ltd. (ADAL), a proud subsidiary of{" "}
+          <a
+            className="font-bold underline"
+            target="_blank"
+            href="https://www.mosaicholding.com/"
+          >
+            Mosaic Holding Corporation
+          </a>
+          , is a globally recognized multidisciplinary firm with over 40 years
+          of expertise in delivering exceptional design solutions. Comprising a
+          skilled team of architects, architectural technologists, project
+          managers, interior designers, and dedicated support professionals,
+          ADAL has established a stellar reputation for excellence across
+          residential, commercial, and institutional sectors. The firm
+          specializes in master and urban planning, interior design, and a wide
+          range of architectural projects, including single-family and
+          multifamily residential developments, commercial and administrative
+          spaces, healthcare and cultural buildings, and creative endeavors such
+          as theme parks, set designs, and water features. Additionally, ADAL
+          provides comprehensive regulatory and technical services, including
+          building booklets and permit facilitation. Committed to innovation,
+          quality, and functionality, ADAL continues to shape visionary and
+          enduring spaces worldwide.
         </p>
       </div>
       <div

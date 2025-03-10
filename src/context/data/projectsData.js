@@ -1,5 +1,5 @@
 export const slugify = (name) => name.toLowerCase().replace(/\s+/g, "-");
-
+ 
 const projectsData = [
   {
     name: "Lexus of Edmonton",

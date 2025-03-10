@@ -9,18 +9,12 @@ import { Link } from "react-router-dom";
 function Awards() {
   const awardsDetails = [
     {
-      img: "/awards/1.webp",
-      title: "CALLAGHAN RAVINES, Edmonton, AB",
-      year: "2014 - 2015",
-      link: `/projects/${slugify("CALLAGHAN RAVINES, Edmonton, AB")}`,
-      description: "The Americas Property Awards ,Canada",
-    },
-    {
-      img: "/awards/2.webp",
-      title: "Lexus of Edmonton",
-      link: `/projects/${slugify("Lexus of Edmonton")}`,
-      year: "2014 - 2015",
-      description: "The American Property Awards ,Canada ",
+      img: "/awards/7.webp",
+      title: "OSHEANA CONDOMINIUMS, Edmonton, AB",
+      year: "2006",
+      link: `/projects/${slugify("Osheana Condominiums")}`,
+      description:
+        "SAM Awards 2006 under 2 categories for Suite Design Types Finalist – SAM Awards 2006 as one of the 2 best Apartments.",
     },
     {
       img: "/awards/3.webp",
@@ -30,53 +24,18 @@ function Awards() {
       description: "The SAM Awards 2011 Finalist Town House Category",
     },
     {
-      img: "/awards/4.webp",
-      title: "Mall of America ,Bloomington Minnesota",
-      link: `/projects/${slugify("The Mall of America")}`,
+      img: "/awards/2.webp",
+      title: "Lexus of Edmonton",
+      link: `/projects/${slugify("Lexus of Edmonton")}`,
       year: "2014 - 2015",
-      description:
-        "Rated #1 in the list of 10 best malls in world largest malls in USA",
+      description: "The American Property Awards ,Canada ",
     },
     {
-      img: "/awards/5.webp",
-      title: "MULTI-GENERATIONAL HOUSING (M.G.H.), Calgary, AB",
-      link: `/projects/${slugify(
-        "Multi-Generational Housing (M.G.H.), Calgary, AB"
-      )}`,
-      year: "2017 - 2018",
-      description: "The Architect Multiple Residence Canada Award ",
-    },
-    {
-      img: "/awards/6.webp",
-      title:
-        "NIGERIAN INDUSTRIAL BANK HEADQUARTERS, CONVENTION CENTRE & SHOPPING COMPLEX, Abuja, Nigeria",
+      img: "/awards/1.webp",
+      title: "CALLAGHAN RAVINES, Edmonton, AB",
       year: "2014 - 2015",
-      link: `/projects/${slugify("Nigerian Industrial Bank Headquarters")}`,
-      description: "One of the largest projects in Nigeria.",
-    },
-    {
-      img: "/awards/7.webp",
-      title: "OSHEANA CONDOMINIUMS, Edmonton, AB",
-      year: "2006",
-      link: `/projects/${slugify("Osheana Condominiums")}`,
-      description:
-        "SAM Awards 2006 under 2 categories for Suite Design Types Finalist – SAM Awards 2006 as one of the 2 best Apartments.",
-    },
-    {
-      img: "/awards/8.webp",
-      title: "Olympic Center, Calgary, AB",
-      year: "2014 - 2015",
-      link: `/projects/${slugify("Olympic Center")}`,
-      description:
-        "Winning design of a limited competition of five local firms. ",
-    },
-    {
-      img: "/awards/9.webp",
-      title: "One Denver Place, Denver, Colorado, USA",
-      year: "2014 - 2015",
-      link: `/projects/${slugify("One Denver Place")}`,
-      description:
-        "Won a limited competition among five architectural firms in Calgary",
+      link: `/projects/${slugify("CALLAGHAN RAVINES, Edmonton, AB")}`,
+      description: "The Americas Property Awards ,Canada",
     },
     {
       img: "/awards/10.webp",
@@ -87,11 +46,13 @@ function Awards() {
         "The International Property Awards, in the Architecture Residence Canada ",
     },
     {
-      img: "/awards/11.webp",
-      title: "West Edmonton Mall , Edmonton, AB",
-      year: "2013 - 2014",
-      link: `/projects/${slugify("West Edmonton Mall")}`,
-      description: "Rated #2 in the list of 10 – Best Malls in the World",
+      img: "/awards/5.webp",
+      title: "MULTI-GENERATIONAL HOUSING (M.G.H.), Calgary, AB",
+      link: `/projects/${slugify(
+        "Multi-Generational Housing (M.G.H.), Calgary, AB"
+      )}`,
+      year: "2017 - 2018",
+      description: "The Architect Multiple Residence Canada Award ",
     },
   ];
   const settings = {
