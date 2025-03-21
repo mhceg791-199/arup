@@ -31,7 +31,6 @@ function CareerForm() {
       .email("Invalid email address")
       .required("Email is required"),
     message: Yup.string().required("Message is required"),
-    position: Yup.string().required("position is required"),
     cv: Yup.mixed()
       .required("A CV is required")
       .test(
@@ -51,7 +50,6 @@ function CareerForm() {
     initialValues: {
       firstName: "",
       lastName: "",
-      position: "",
       phone: "",
       email: "",
       message: "",
@@ -61,8 +59,7 @@ function CareerForm() {
     onSubmit: async (values) => {
       setIsLoading(true);
       const formdata = new FormData();
-      const { firstName, lastName, position, phone, email, message, cv } =
-        values;
+      const { firstName, lastName, phone, email, message, cv } = values;
 
       function SelectIndustry() {
         const { term, setTerm, industryOptions } = useContext(projectContext);
@@ -130,14 +127,14 @@ function CareerForm() {
 
       formdata.append("firstName", firstName);
       formdata.append("lastName", lastName);
-      formdata.append("position", position);
       formdata.append("phone", phone);
       formdata.append("email", email);
       formdata.append("message", message);
       formdata.append("cv", cv);
+      formdata.append("websiteName", "ARUP");
 
       const { data } = await axios.post(
-        "https://mhc-backend.vercel.app/v1/api/candidate",
+        " http://wolsey.ca/api/candidate",
         formdata
       );
       toast.success("Application Sent Successfully!", {
@@ -158,7 +155,7 @@ function CareerForm() {
   return (
     <>
       <ToastContainer />
-      <form  onSubmit={formik.handleSubmit} className="mb-5  !w-full">
+      <form onSubmit={formik.handleSubmit} className="mb-5  !w-full">
         <div className="grid gap-6 mb-3 md:grid-cols-2">
           {/* Name input */}
           <div>
@@ -173,9 +170,7 @@ function CareerForm() {
               required
             />
             {formik.touched.firstName && formik.errors.firstName && (
-              <p className="text-red-800  mb-0">
-                {formik.errors.firstName}
-              </p>
+              <p className="text-red-800  mb-0">{formik.errors.firstName}</p>
             )}
           </div>
           <div>
@@ -219,7 +214,7 @@ function CareerForm() {
         </div>
 
         {/* Industry dropdown */}
-        <div className="mb-3">
+        {/* <div className="mb-3">
           <select
             id="position"
             name="position"
@@ -303,7 +298,7 @@ function CareerForm() {
             <option value="Runner" label="Runner" />
             <option value="Office Boy" label="Office Boy" />
           </select>
-        </div>
+        </div> */}
 
         {/* Message input */}
         <div className="mb-3">
@@ -313,7 +308,7 @@ function CareerForm() {
             onChange={formik.handleChange}
             value={formik.values.message}
             className="bg-gray !text-mainColor  block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-mainColor focus:border-mainGold focus:ring-mainGold focus:outline-none placeholder-mainColor"
-            placeholder="Why would you apply in the selected position?"
+            placeholder="Message"
             rows={6}
             required
           />
@@ -340,10 +335,7 @@ function CareerForm() {
           />
         </div>
 
-        <p
-          className="mt-1  text-white dark:text-gray-300"
-          id="file_input_help"
-        >
+        <p className="mt-1  text-white dark:text-gray-300" id="file_input_help">
           PDF (Max size: 5MB).
         </p>
         {isLoading ? (
