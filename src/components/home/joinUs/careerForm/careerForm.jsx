@@ -134,7 +134,7 @@ function CareerForm() {
       formdata.append("websiteName", "ARUP");
 
       const { data } = await axios.post(
-        " http://wolsey.ca/api/candidate",
+        "http://wolsey.ca/api/candidate",
         formdata
       );
       toast.success("Application Sent Successfully!", {
