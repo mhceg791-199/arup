@@ -24,7 +24,7 @@ function Numbers() {
       text: "PROJECTS",
       number: "1000",
       icon: "+",
-      time: "50000",
+      time: "30000",
     },
   ];
   return (
@@ -32,7 +32,7 @@ function Numbers() {
       <div className="grid md:grid-cols-2  grid-cols-1 py-16 gap-6">
         <div className="col-span-1 flex items-center">
           <p className="font-bold text-xl md:px-10">
-            CREATING ARCHITECTURE IS A PROCESS OF STRIVING FOR EXCELLENCE, FOR
+            CREATING ARCHITECTURE IS A PROCESS OF STRIVING FOR EXCELLENCY, FOR
             THE PEOPLE, BY THE PEOPLE
           </p>
         </div>
