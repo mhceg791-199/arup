@@ -1,0 +1,18 @@
+:root {
+  --mainColor: #415E6F;
+  --textColor: white
+}
+
+
+body {
+  background-color: var(--mainColor);
+  color: var(--textColor);
+}
+
+.text-header {
+  font-size: 49px;
+}
+
+.text-large {
+  font-size: 38px;
+}

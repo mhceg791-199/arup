@@ -1,0 +1,19 @@
+.animation:hover {
+  transform: scale(1.03);
+  transition: 0.5s;
+}
+
+.animation {
+  transition: 0.5s;
+}
+
+.changeBg {
+  background-color: #415e6f9f;
+  transition: 1s;
+  height: 45%;
+}
+
+.animation:hover .changeBg {
+  background-color: #415e6f;
+  transition: 1s;
+}
