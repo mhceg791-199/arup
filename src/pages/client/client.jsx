@@ -26,11 +26,11 @@ function Client() {
   ];
   return (
     <>
-      <div className="bg-gray py-20 md:px-10">
+      <div className="bg-mainColor py-20 md:px-10">
         <h1 className="text-xxl text-gold font-bold text-center mb-5">
           CLIENT-CENTRED COLLABORATION
         </h1>
-        <p className="font-bold text-center text-mainColor md:w-3/4 m-auto">
+        <p className="font-bold text-center md:w-3/4 m-auto">
           At ADAL, collaboration is the foundation of everything we do. Our
           approach is built on fostering open communication, understanding
           client objectives, and delivering outcomes that align seamlessly with

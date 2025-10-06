@@ -3,17 +3,13 @@ import React from "react";
 function ClientCard({ client }) {
   const { title, img, text } = client;
   return (
-    <div className="bg-mainColor p-5">
-      <div className="h-[48.5rem] w-full overflow-hidden flex items-center justify-center">
-        <img
-          className="object-cover w-full h-full rounded-md"
-          src={img}
-          alt={title}
-        />
+    <>
+      <div className="bg-mainColor p-5">
+        <img className="mb-3" src={img} alt="" />
+        <p className="text-gold my-1 font-bold">{title}</p>
+        <p>{text}</p>
       </div>
-      <p className="text-gold my-2 font-bold">{title}</p>
-      <p className="text-white text-sm">{text}</p>
-    </div>
+    </>
   );
 }
 
