@@ -4,9 +4,9 @@ function ClientCard({ client }) {
   const { title, img, text } = client;
   return (
     <div className="bg-mainColor p-5">
-      <div className="h-[18rem] w-full overflow-hidden flex items-center justify-center">
+      <div className="h-[48.5rem] w-full overflow-hidden flex items-center justify-center">
         <img
-          className="object-contain w-full h-full rounded-md"
+          className="object-cover w-full h-full rounded-md"
           src={img}
           alt={title}
         />
