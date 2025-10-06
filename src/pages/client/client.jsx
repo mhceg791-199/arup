@@ -9,7 +9,7 @@ function Client() {
       text: "At ADAL, we are unwavering in our commitment to a design process that prioritizes the client as the cornerstone of every project. By taking the time to deeply understand our clients’ aspirations, we ensure that each project not only embodies their vision but also addresses the distinct needs of the communities it serves. Through clear communication and mutual understanding, we craft outcomes that are both impactful and enduring.",
     },
     {
-      img: "/clients/2.webp",
+      img: "/clients/22.webp",
       title: "TEAMWORK AND CLIENT ENGAGEMENT",
       text: "Innovation thrives when exceptional minds collaborate. At ADAL, we champion a synergistic, client-inclusive approach, fostering continuous dialogue with clients and stakeholders. This collaborative process allows us to refine concepts, overcome challenges, and co-create transformative solutions. By integrating creativity with practicality, we deliver projects that are not only visionary but also tailored for long-term success.",
     },
