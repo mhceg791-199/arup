@@ -8,8 +8,8 @@ function ContactUs() {
     <>
       <img
         className="h-[80vh] object-cover w-full"
-        src="/contactUs/contactUs.webp"
-        alt=""
+        src="/contactUs/contact.webp"
+        alt="contact us"
       />
 
       <div className="text-center mt-20">
