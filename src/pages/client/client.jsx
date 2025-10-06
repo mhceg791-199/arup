@@ -26,7 +26,7 @@ function Client() {
   ];
   return (
     <>
-      <div className="bg-mainColor py-20 md:px-10">
+      <div className="bg-[#415E6F] py-20 md:px-10">
         <h1 className="text-xxl text-gold font-bold text-center mb-5">
           CLIENT-CENTRED COLLABORATION
         </h1>
