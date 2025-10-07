@@ -2,12 +2,13 @@ import { useEffect, useState } from "react";
 
 function useCountUp(target, start = false, duration = 5000) {
   const [count, setCount] = useState(0);
-
-  useEffect(() => {
-    if (!start) return;
+  
+  useEffect(() => { 
+    if (!start) return; 
 
     let startCount = 0;
-    const increment = target / (duration / 10); // Increment per 10ms
+    const stepTime = 10; 
+    const increment = target / (duration / stepTime); // Increment per 10ms
     const counter = setInterval(() => {
       startCount += increment;
       if (startCount >= target) {
@@ -15,7 +16,7 @@ function useCountUp(target, start = false, duration = 5000) {
         clearInterval(counter);
       }
       setCount(Math.floor(startCount));
-    }, 10);
+    }, stepTime);
 
     return () => clearInterval(counter); // Cleanup on unmount
   }, [target, duration, start]);
@@ -24,3 +25,36 @@ function useCountUp(target, start = false, duration = 5000) {
 }
 
 export default useCountUp;
+
+
+
+
+
+
+
+// import { useEffect, useState } from "react";
+
+// function useCountUp(target, start = false, duration = 5000) {
+//   const [count, setCount] = useState(0);
+
+//   useEffect(() => {
+//     if (!start) return;
+
+//     let startCount = 0;
+//     const increment = target / (duration / 10); // Increment per 10ms
+//     const counter = setInterval(() => {
+//       startCount += increment;
+//       if (startCount >= target) {
+//         startCount = target;
+//         clearInterval(counter);
+//       }
+//       setCount(Math.floor(startCount));
+//     }, 10);
+
+//     return () => clearInterval(counter); // Cleanup on unmount
+//   }, [target, duration, start]);
+
+//   return count;
+// }
+
+// export default useCountUp;

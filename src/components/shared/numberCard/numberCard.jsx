@@ -4,7 +4,7 @@ import useCountUp from "../../../hooks/useCountUp";
 
 function NumberCard({ text, number, icon, isHover = true, time }) {
   const { ref, inView } = useInView({ triggerOnce: true }); // Detects if in view once
-  const myNumber = useCountUp(number, inView, time);
+  const myNumber = useCountUp(number, inView, 3000);
 
   return (
     <>
