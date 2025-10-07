@@ -32,7 +32,7 @@ function ServiceCard({ img, name, text, link }) {
                 });
                 navigate("/projects");
               }}
-              className="text-base cursor-pointer"
+              className="text-base cursor-pointer text-gold"
             >
               LEARN MORE
             </p>

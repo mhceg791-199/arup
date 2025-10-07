@@ -14,7 +14,7 @@ function SelectLocation() {
         }),
         option: (baseStyles, state) => ({
           ...baseStyles,
-          backgroundColor: state.isFocused ? "#864721" : "white",
+          backgroundColor: state.isFocused ? "#C5A363" : "white",
           color: state.isFocused ? "white" : "black",
           cursor: "pointer",
           // ":hover": {
@@ -24,7 +24,7 @@ function SelectLocation() {
         multiValue: (baseStyles) => ({
           ...baseStyles,
 
-          backgroundColor: "#864721", // Background for selected options
+          backgroundColor: "#C5A363", // Background for selected options
         }),
         multiValueLabel: (baseStyles) => ({
           ...baseStyles,
@@ -55,8 +55,8 @@ function SelectLocation() {
         borderRadius: 0,
         colors: {
           ...theme.colors,
-          primary25: "#864721",
-          primary: "#864721",
+          primary25: "#C5A363",
+          primary: "#C5A363",
         },
       })}
       options={locationOptions}

@@ -69,7 +69,7 @@ function CareerForm() {
             styles={{
               control: (baseStyles, state) => ({
                 ...baseStyles,
-                borderColor: state.isFocused ? "#864721" : "gray", // Border color on focus
+                borderColor: state.isFocused ? "#C5A363" : "gray", // Border color on focus
                 boxShadow: state.isFocused
                   ? "0 25px 50px -12px rgba(134, 71, 33, 0.25), 0 10px 20px -6px rgba(134, 71, 33, 0.15)" // Stronger shadow
                   : "none",
@@ -77,13 +77,13 @@ function CareerForm() {
               }),
               option: (baseStyles, state) => ({
                 ...baseStyles,
-                backgroundColor: state.isFocused ? "#864721" : "white",
+                backgroundColor: state.isFocused ? "#C5A363" : "white",
                 color: state.isFocused ? "white" : "black",
                 cursor: "pointer",
               }),
               multiValue: (baseStyles) => ({
                 ...baseStyles,
-                backgroundColor: "#864721", // Background for selected options
+                backgroundColor: "#C5A363", // Background for selected options
               }),
               multiValueLabel: (baseStyles) => ({
                 ...baseStyles,
@@ -115,8 +115,8 @@ function CareerForm() {
               borderRadius: 0,
               colors: {
                 ...theme.colors,
-                primary25: "#864721",
-                primary: "#864721",
+                primary25: "#C5A363",
+                primary: "#C5A363",
               },
             })}
             className="basic-multi-select rounded-xl"
