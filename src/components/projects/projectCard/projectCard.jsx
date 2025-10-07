@@ -9,7 +9,7 @@ export function ProjectCard({ project }) {
         <img
           className="h-[50vh] w-full object-cover mb-1"
           src={imgs[0]}
-          alt=""
+          alt={`${{name}}`}
         />
       </div>
       <p>{name}</p>

@@ -103,7 +103,7 @@ function Awards() {
                   <img
                     src={item.img}
                     className=" h-[35vh] object-cover  w-full"
-                    alt=""
+                    alt={`${item.title}`}
                   />
                 </Link>
                 <div className="mt-4 ps-1">

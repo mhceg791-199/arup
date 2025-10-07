@@ -14,7 +14,7 @@ function JoinUs({ openMoal = false }) {
 
       <div className="grid gap-10 md:grid-cols-2 grid-cols-1">
         <div className="col-span-1 p-8">
-          <img src="/home/career.webp" alt="" />
+          <img src="/home/career.webp" alt="Career Modal ADAL" />
         </div>
         <div className="col-span-1 flex justify-center flex-col">
           <p className="text-base">ADAL Careers</p>

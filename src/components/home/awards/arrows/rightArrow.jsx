@@ -9,7 +9,7 @@ function RightArrow(props) {
         className="w-[3%] absolute right-0 bottom-[50%] -translate-y-[50%]"
         onClick={onClick}
         src="/awards/arrows/nextArrow.webp"
-        alt=""
+        alt="Right Arrow ADAL"
       />
     </>
   );

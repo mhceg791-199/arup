@@ -26,7 +26,7 @@ function Brian() {
               lineFirst={false}
             />
           </div>
-          <img className="w-full" src="brian/1.webp" alt="" />
+          <img className="w-full" src="brian/1.webp" alt="Brian ADAL" />
         </div>
         <LineWithParagraph
           paragraph="With over 25 years in architectural technology and project management, Brian Dennis has been instrumental in delivering successful building 
@@ -50,7 +50,7 @@ alteration efforts."
         />
         {/* ================================================================ */}
         <div className="grid grid-cols-2 mt-20 gap-10   items-center">
-          <img className="w-full" src="brian/2.webp" alt="" />
+          <img className="w-full" src="brian/2.webp" alt="Brian ADAL" />
           <div className="text-start me-auto">
             <LineWithSentence
               words={["LEADERSHIP & ", "COORDINATION"]}

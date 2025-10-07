@@ -25,7 +25,7 @@ function Christopher() {
               lineFirst={false}
             />
           </div>
-          <img className="w-full" src="christopher/1.webp" alt="" />
+          <img className="w-full" src="christopher/1.webp" alt="Christopher" />
         </div>
         <LineWithParagraph
           paragraph="With over 20 years of experience, Chris has contributed to numerous award-winning projects at ADAL. His design and graphic skills have been instrumental in creating innovative and visually striking solutions across 
@@ -46,7 +46,7 @@ programs, as well as conceptual and schematic designs of the highest standards. 
         />
         {/* ================================================================ */}
         <div className="grid grid-cols-2 mt-20 gap-10   items-center">
-          <img className="w-full" src="christopher/2.webp" alt="" />
+          <img className="w-full" src="christopher/2.webp" alt="Christopher ADAL" />
           <div className="text-start me-auto">
             <LineWithSentence
               words={["TECHNICAL & ", "PRODUCTION EXPERTISE"]}

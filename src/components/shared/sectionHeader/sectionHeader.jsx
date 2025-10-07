@@ -11,7 +11,7 @@ function SectionHeader({ text, link }) {
         <img
           className="md:w-8 w-10 object-contain"
           src="/images/arrow.png"
-          alt=""
+          alt="ADAL Header"
         />
       </div>
     </>

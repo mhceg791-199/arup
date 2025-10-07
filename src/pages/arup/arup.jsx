@@ -28,7 +28,7 @@ function Arup() {
             />
           </div>
           <div className="bg-blue-gray-500">
-            <img className="  object-scale-down" src="arup/1.webp" alt="" />
+            <img className="  object-scale-down" src="arup/1.webp" alt="ADAL arup" />
           </div>
         </div>
         <LineWithParagraph
@@ -63,7 +63,7 @@ to the design of modern and complex architectural projects."
             />
           </div>
           <div className="">
-            <img className="  object-scale-down" src="arup/2.webp" alt="" />
+            <img className="  object-scale-down" src="arup/2.webp" alt="arup ADAL" />
           </div>
         </div>
         <LineWithParagraph

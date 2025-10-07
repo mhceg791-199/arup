@@ -27,7 +27,7 @@ export function TopNavbar({ listOfNavbar, closeDrawerTop }) {
       <div className="flex items-start flex-col justify-between text-blue-gray-900">
         <div className="flex justify-between w-full">
           <Link to="/" className="w-[20%] mb-5">
-            <img className="w-3/4" src="/images/logo1.png" alt="" />
+            <img className="w-3/4" src="/images/logo1.png" alt="ADAL TopNavbar" />
           </Link>
           <IconButton variant="text" color="blue-gray" onClick={closeDrawerTop}>
             <svg

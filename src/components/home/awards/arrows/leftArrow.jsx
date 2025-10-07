@@ -9,7 +9,7 @@ function LeftArrow(props) {
         className="w-[3%] absolute left-0 z-30 bottom-[50%] -translate-y-[50%]"
         onClick={onClick}
         src="/awards/arrows/preArrow.webp"
-        alt=""
+        alt="Left Arrow ADAL"
       />
     </>
   );

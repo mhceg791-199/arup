@@ -31,7 +31,7 @@ function Footer() {
           <img
             className="p-2 md:me-auto md:w-full w-3/4 m-auto"
             src="/images/logo1.png"
-            alt=""
+            alt="ADAL Footer"
           />
         </div>
         <div className="md:col-span-5 md:ps-0 px-5 col-span-1 flex items-start flex-col justify-center">

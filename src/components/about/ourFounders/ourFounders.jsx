@@ -14,7 +14,7 @@ function OurFounders() {
               <img
                 className="w-1/2 m-auto "
                 src="/founders/founder1.webp"
-                alt=""
+                alt="founders ADAL"
               />
             </Link>
           </div>

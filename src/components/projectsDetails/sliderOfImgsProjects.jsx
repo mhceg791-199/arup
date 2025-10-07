@@ -18,7 +18,7 @@ function SliderOfImgsProject({ imgs }) {
         <Slider {...settings}>
           {imgs.map((img, index) => (
             <div key={index}>
-              <img className="w-full h-[80vh] object-cover" src={img} alt="" />
+              <img className="w-full h-[80vh] object-cover" src={img} alt="Slider Of Project ADAL" />
             </div>
           ))}
         </Slider>

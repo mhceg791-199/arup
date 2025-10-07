@@ -20,7 +20,7 @@ function SustainabilityDetails() {
           <img
             className="md:p-10 w-full xl:h-[72vh] object-cover "
             src={img}
-            alt=""
+            alt="Sustainability Details ADAL"
           />
         </div>
       </div>

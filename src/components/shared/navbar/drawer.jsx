@@ -70,13 +70,13 @@ export function DrawerPlacement() {
     <React.Fragment>
       <div className="flex justify-between p-5 z-50 bg-transparent absolute top-0 left-0 right-0">
         <Link className="lg:w-[12%] md:w-[15%] w-[25%] " to="/">
-          <img className=" object-contain" src="/images/logo2.png" alt="" />
+          <img className=" object-contain" src="/images/logo2.png" alt="ADAL Drawer Placement" />
         </Link>
         <img
           className="lg:w-[3%] md:w-[5%] w-[10%] object-contain cursor-pointer"
           onClick={dispalyFromTop ? openDrawerTop : openDrawerRight}
           src="/images/burgerIcon.png"
-          alt=""
+          alt="ADAL DrawerPlacement"
         />
       </div>
       <Drawer
