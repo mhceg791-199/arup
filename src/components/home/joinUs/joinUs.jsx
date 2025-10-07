@@ -18,7 +18,7 @@ function JoinUs({ openMoal = false }) {
         </div>
         <div className="col-span-1 flex justify-center flex-col">
           <p className="text-base">ADAL Careers</p>
-          <p className="font-bold text-xl mt-2">JOIN US</p>
+          <p className="font-bold text-xl mt-2 text-gold">JOIN US</p>
           <p className="my-3 md:w-3/4">
             At ADAL, we believe in nurturing talent, fostering innovation, and
             empowering individuals to make a meaningful impact.

@@ -14,7 +14,7 @@ function ContactUs() {
 
       <div className="text-center mt-20">
         <h1>CONTACT US</h1>
-        <p className="text-xxxl font-semibold">Get in touch!</p>
+        <p className="text-xxxl font-semibold text-gold">Get in touch!</p>
       </div>
       <Form />
 
