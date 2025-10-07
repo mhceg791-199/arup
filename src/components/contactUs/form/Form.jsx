@@ -55,13 +55,13 @@ function Form() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <div className="flex flex-col items-center mt-10">
+      <div className="flex flex-col items-center mt-10 mx-2">
         <div className="w-full max-w-sm min-w-[50%] my-2">
           <input
             name="fullName"
             value={formData.fullName}
             onChange={handleChange}
-            className="w-full bg-transparent placeholder:text-slate-400 text-slate-700 border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
+            className="w-full placeholder:text-slate-400 text-slate-700 border border-gold-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
             placeholder="Full Name"
           />
           {errors.fullName && (
@@ -73,7 +73,7 @@ function Form() {
             name="phone"
             value={formData.phone}
             onChange={handleChange}
-            className="w-full bg-transparent placeholder:text-slate-400 text-slate-700 border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
+            className="w-full placeholder:text-slate-400 text-slate-700 border border-gold-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
             placeholder="Phone"
           />
           {errors.phone && (
@@ -85,7 +85,7 @@ function Form() {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className="w-full bg-transparent placeholder:text-slate-400 text-slate-700 border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
+            className="w-full placeholder:text-slate-400 text-slate-700 border border-gold-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
             placeholder="Email"
           />
           {errors.email && (
@@ -97,7 +97,7 @@ function Form() {
             name="message"
             value={formData.message}
             onChange={handleChange}
-            className="w-full bg-transparent my-2 placeholder:text-slate-400 text-slate-700 border border-slate-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
+            className="w-full my-2 placeholder:text-slate-400 text-slate-700 border border-gold-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
             rows={8}
             placeholder="Message"
           ></textarea>
@@ -106,7 +106,7 @@ function Form() {
           )}
           <button
             type="submit"
-            className="px-5 py-2 bg-white text-mainColor rounded-lg me-auto"
+            className="px-5 py-2 bg-white text-gold rounded-lg me-auto"
           >
             Send
           </button>
