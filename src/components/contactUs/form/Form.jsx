@@ -61,7 +61,7 @@ function Form() {
             name="fullName"
             value={formData.fullName}
             onChange={handleChange}
-            className="w-full placeholder:text-slate-400 text-slate-700 border border-gold-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
+            className="w-full placeholder:text-slate-400 text-slate-700  border-2 border-gold-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
             placeholder="Full Name"
           />
           {errors.fullName && (
@@ -73,7 +73,7 @@ function Form() {
             name="phone"
             value={formData.phone}
             onChange={handleChange}
-            className="w-full placeholder:text-slate-400 text-slate-700 border border-gold-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
+            className="w-full placeholder:text-slate-400 text-slate-700 border-2 border-gold-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
             placeholder="Phone"
           />
           {errors.phone && (
@@ -85,7 +85,7 @@ function Form() {
             name="email"
             value={formData.email}
             onChange={handleChange}
-            className="w-full placeholder:text-slate-400 text-slate-700 border border-gold-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
+            className="w-full placeholder:text-slate-400 text-slate-700 border-2 border-gold-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
             placeholder="Email"
           />
           {errors.email && (
@@ -97,7 +97,7 @@ function Form() {
             name="message"
             value={formData.message}
             onChange={handleChange}
-            className="w-full my-2 placeholder:text-slate-400 text-slate-700 border border-gold-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
+            className="w-full my-2 placeholder:text-slate-400 text-slate-700 border-2 border-gold-200 rounded-md px-3 py-2 transition duration-300 ease focus:outline-none focus:border-slate-400 hover:border-slate-300 shadow-sm focus:shadow"
             rows={8}
             placeholder="Message"
           ></textarea>
