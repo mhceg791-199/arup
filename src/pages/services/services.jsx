@@ -10,7 +10,7 @@ function Services() {
 
   return (
     <>
-      <VideoPoster video="/services/Services.mp4" />
+      <VideoPoster video="/services/Services.webm" />
       <div className="md:ps-10 ps-5 -translate-y-[110%]">
         <SectionHeader text="SERVICES" />
       </div>
